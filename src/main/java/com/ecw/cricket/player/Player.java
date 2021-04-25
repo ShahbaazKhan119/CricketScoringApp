@@ -1,7 +1,5 @@
 package com.ecw.cricket.player;
 
-import com.ecw.cricket.user.UserType;
-
 // Entity to store player information
 public class Player {
 	
@@ -10,6 +8,13 @@ public class Player {
 	private PlayerType playerType;
 	
 	
+	/**
+	 * 
+	 * 
+	 * @param playerId
+	 * @param playerName
+	 * @param playerType
+	 */
 	public Player(int playerId,String playerName,PlayerType playerType) {
 		super();
 		this.playerId = playerId;
